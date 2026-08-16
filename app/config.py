@@ -12,7 +12,7 @@ PSEUDOGRAM_API_BASE_URL = os.getenv(
 )
 
 MONGODB_URL = os.getenv(
-    "MONGODB_URL",
+    "MONGODB_URI",
     "mongodb://localhost:27017",
 )
 
